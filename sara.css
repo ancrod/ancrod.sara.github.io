@@ -61,23 +61,23 @@ div nav {
   }
 
 button {
-    display:inline-block;
-    font-size:20px;
-    color:#8327ce;
-    border:1px solid #666;
-    border-radius:3px;
-    font-family:arial, helvetica, sans-serif;
-    /* float:right; */
-    padding:5px;
+   display:inline-block;
+   font-size:15px;
+   color:#8327ce;
+   border:1px solid #666;
+   border-radius:3px;
+   font-family:arial, helvetica, sans-serif;
+   padding:4px;
   }
  
  .ref-site {
-  float:right;
+  /* float:right; */
   /* font-color:#020202; */
   font:#020202;
   text-decoration:none;  
   }
   /* bottom buttons greyed out till I get general button working */
+  
 .student {
   color:#bfafaf;
   }
@@ -86,8 +86,13 @@ button {
   color:#bfafaf;
   }
 
-.google-search-links {
+table {
   float:right;
+  vertical-align:center;
+}
+.google-search-links {
+  /* float:right; */
+  margin:15px;
   }
   
   
