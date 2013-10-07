@@ -47,19 +47,33 @@ table {
 	border-spacing: 0;
 }
 
-nav {
-  inline:block;
+/* This is the start of the code */
+
+
+div nav {
+  padding:20px;
+  
+}
+
+#search-links {
+  
   
   }
 
-#search-links {
-  font-size:50px;
-    
-  }
-
 button {
+    display:inline-block;
+    font-size:20px;
     color:#8327ce;
     border:1px solid #666;
     border-radius:3px;
     font-family:arial, helvetica, sans-serif;
-    }
+    float:right;
+    padding:5px;
+  }
+ 
+ .ref-site {
+  float:left;
+  color:black;
+  
+  
+  }
