@@ -55,10 +55,10 @@ div nav {
   
 }
 
-#search-links {
+/* #search-links {
   
   
-  }
+  } */
 
 button {
    display:inline-block;
@@ -70,11 +70,12 @@ button {
    padding:4px;
   }
  
- .ref-site {
+.ref-site {
   /* float:right; */
   /* font-color:#020202; */
   font:#020202;
-  text-decoration:none;  
+  text-decoration:none;
+  
   }
   /* bottom buttons greyed out till I get general button working */
   
@@ -86,18 +87,18 @@ button {
   color:#bfafaf;
   }
 
-table {
-  float:right;
-  vertical-align:center;
-}
+
 .google-search-links {
-  /* float:right; */
-  margin:15px;
+  float:right;
+  padding:20px;
   }
-  
+.ref-site {
+   text-align:center;
+   }
   
   /* make sure that text-align for correct resizing of text when
     when pages are resized. It is a good practice to resize regularly to see how it looks.*/
+
     
 .page-heading h1 {
   font-size:60px;
