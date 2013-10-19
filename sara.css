@@ -49,35 +49,31 @@ table {
 
 /* This is the start of the code */
 
-
-div nav {
+nav {
   padding:20px 5px 5px 5px;
   
 }
 
-#search-links {
-  
-  
-  }
 
 button {
-    display:inline-block;
-    font-size:20px;
-    color:#8327ce;
-    border:1px solid #666;
-    border-radius:3px;
-    font-family:arial, helvetica, sans-serif;
-    /* float:right; */
-    padding:5px;
+   display:inline-block;
+   font-size:15px;
+   color:#8327ce;
+   border:1px solid #666;
+   border-radius:3px;
+   font-family:arial, helvetica, sans-serif;
+   padding:4px;
   }
  
- .ref-site {
-  float:right;
+.ref-site {
+  /* float:right; */
   /* font-color:#020202; */
   font:#020202;
-  text-decoration:none;  
+  text-decoration:none;
+  
   }
   /* bottom buttons greyed out till I get general button working */
+  
 .student {
   color:#bfafaf;
   }
@@ -86,13 +82,18 @@ button {
   color:#bfafaf;
   }
 
+
 .google-search-links {
   float:right;
+  padding:20px;
   }
-  
+.ref-site {
+   text-align:center;
+   }
   
   /* make sure that text-align for correct resizing of text when
     when pages are resized. It is a good practice to resize regularly to see how it looks.*/
+
     
 .page-heading h1 {
   font-size:60px;
@@ -108,5 +109,6 @@ button {
   padding:10px;
   border:10px;
   text-align:center;
+  
   }
   
