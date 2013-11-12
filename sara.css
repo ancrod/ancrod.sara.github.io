@@ -54,19 +54,11 @@ nav {
   
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d2123e6eedc846d4814b20622d2455e5b9fcdab4
-/* #search-links {
+
+ table .using {
+  padding:5px;
   
-  
-  } */
-<<<<<<< HEAD
->>>>>>> d2123e6eedc846d4814b20622d2455e5b9fcdab4
-=======
->>>>>>> d2123e6eedc846d4814b20622d2455e5b9fcdab4
+  } 
 
 button {
    display:inline-block;
@@ -79,11 +71,10 @@ button {
   }
  
 .ref-site {
-  /* float:right; */
-  /* font-color:#020202; */
   font:#020202;
   text-decoration:none;
-  
+  padding:5px;
+  margin:5px;
   }
   /* bottom buttons greyed out till I get general button working */
   
@@ -117,10 +108,10 @@ button {
   }
   
 .page-heading p {
-  font-size:15px;
+  font-size:20px;
   font-family:arial, helvetica, sans-serif;
-  padding:10px;
-  border:10px;
+  padding:20px;
+  border:20px;
   text-align:center;
   
   }
