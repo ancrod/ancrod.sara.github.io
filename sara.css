@@ -51,16 +51,17 @@ table {
 
 nav {
   padding:20px 5px 5px 5px;
-  
 }
 
-
- table .using {
-  padding:5px;
-  
-  } 
-
-button {
+caption {
+  display:inline-block;
+  font-family:arial, helvetica, sans-serif;
+  font:10px, bold;
+  margin:10px;
+  float:right;
+ }
+ 
+/* button {
    display:inline-block;
    font-size:15px;
    color:#8327ce;
@@ -68,32 +69,30 @@ button {
    border-radius:3px;
    font-family:arial, helvetica, sans-serif;
    padding:4px;
-  }
- 
+} */
+
+/* bottom buttons greyed out till I get general button working */ 
+
 .ref-site {
+  text-align:center;
   font:#020202;
   text-decoration:none;
   padding:5px;
   margin:5px;
-  }
-  /* bottom buttons greyed out till I get general button working */
+}
   
 .student {
   color:#bfafaf;
-  }
+}
   
 .advanced {
   color:#bfafaf;
-  }
+}
 
-
-.google-search-links {
-  float:right;
-  padding:20px;
-  }
-.ref-site {
-   text-align:center;
-   }
+table .google-search-links {
+  
+  
+}
   
   /* make sure that text-align for correct resizing of text when
     when pages are resized. It is a good practice to resize regularly to see how it looks.*/
@@ -105,7 +104,7 @@ button {
   padding:30px 0 0 20px;
   border:10px;
   text-align:center;
-  }
+}
   
 .page-heading p {
   font-size:20px;
@@ -114,5 +113,5 @@ button {
   border:20px;
   text-align:center;
   
-  }
+}
   
