@@ -52,35 +52,7 @@ table {
 nav {
   padding:20px 5px 5px 5px;
 }
-
-caption {
-  display:inline-block;
-  font-family:arial, helvetica, sans-serif;
-  font:10px, bold;
-  margin:10px;
-  float:right;
- }
- 
-/* button {
-   display:inline-block;
-   font-size:15px;
-   color:#8327ce;
-   border:1px solid #666;
-   border-radius:3px;
-   font-family:arial, helvetica, sans-serif;
-   padding:4px;
-} */
-
 /* bottom buttons greyed out till I get general button working */ 
-
-.ref-site {
-  text-align:center;
-  font:#020202;
-  text-decoration:none;
-  padding:5px;
-  margin:5px;
-}
-  
 .student {
   color:#bfafaf;
 }
@@ -89,11 +61,41 @@ caption {
   color:#bfafaf;
 }
 
-table .google-search-links {
+.Daniel {
+  text-decoration:none;
+  color:#000;
+  }
+
+.Daniel:hover {
+  color:#2C0EB2;
+  }
   
+ .TWIT {
+  text-decoration:none;
+  color:#000;
+  }
+  
+.TWIT:hover {
+  color:#2C0EB2;
+  }
+
+caption {
+  display:inline-block;
+  font-family:arial, helvetica, sans-serif;
+  font-size:20px;
+  margin:10px 50px 5px 10px;
+  float:right;
+ }
+
+
+ul  {
+  float:right;
+  margin:10px;
   
 }
-  
+/* th {
+  padding:10px;
+} */ 
   /* make sure that text-align for correct resizing of text when
     when pages are resized. It is a good practice to resize regularly to see how it looks.*/
 
